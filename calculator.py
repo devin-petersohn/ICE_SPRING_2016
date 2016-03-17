@@ -28,13 +28,13 @@ print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
 
-choice = raw_input("Enter choice(1/2/3/4):")
+choice = input("Enter choice(1/2/3/4):")
 
-num1 = int(raw_input("Enter first number: "))
-num2 = int(raw_input("Enter second number: "))
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
 if choice == '1':
-   print(str(num1) + "+" + str(num2) + "=" + str(add(num1,num2))))
+   print(str(num1) + "+" + str(num2) + "=" + str(add(num1,num2)))
 
 elif choice == '2':
    print(str(num1) + "-" + str(num2) + "=" + str(subtract(num1,num2)))

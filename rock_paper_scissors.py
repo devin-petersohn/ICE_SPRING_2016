@@ -31,7 +31,7 @@ def play_game():
         print("----------------------------")
         print("")
         try:
-            you = raw_input("Type 'rock', 'paper', 'scissors' or 'quit' to end game ")
+            you = input("Type 'rock', 'paper', 'scissors' or 'quit' to end game ")
         except:
             print('Invalid entry, please try again')
             print("")
